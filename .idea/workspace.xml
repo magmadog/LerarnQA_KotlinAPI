@@ -48,7 +48,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Ex4Test.testGetText">
+    <configuration name="Ex4Test.testGetText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex4Test" />
+      <option name="METHOD_NAME" value="testGetText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex4Test.testGetText" />
         <item itemvalue="JUnit.HelloWorldTest" />
       </list>
     </recent_temporary>
