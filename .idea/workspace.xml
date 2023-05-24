@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Completed 2nd lessons tests">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Ex5JSONParsing.kt" afterDir="false" />
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex5 completed">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Ex6GetRedirectURL.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Ex5JSONParsing.test">
+  <component name="RunManager" selected="JUnit.Ex6GetRedirectURL">
     <configuration name="Ex5JSONParsing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,12 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest.testCheckType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex6GetRedirectURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
-      <option name="METHOD_NAME" value="testCheckType" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Ex6GetRedirectURL" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex6GetRedirectURL" />
         <item itemvalue="JUnit.Ex5JSONParsing.test" />
         <item itemvalue="JUnit.Ex5JSONParsing" />
         <item itemvalue="JUnit.HelloWorldTest.testCookies" />
         <item itemvalue="JUnit.HelloWorldTest.testHeaders" />
-        <item itemvalue="JUnit.HelloWorldTest.testCheckType" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684930764719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ex5 completed">
+      <created>1684932618802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684932618802</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +175,7 @@
     <MESSAGE value="Ex3" />
     <MESSAGE value="Completed Ex4" />
     <MESSAGE value="Completed 2nd lessons tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed 2nd lessons tests" />
+    <MESSAGE value="Ex5 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex5 completed" />
   </component>
 </project>
