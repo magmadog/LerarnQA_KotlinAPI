@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex7 completed">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Ex8Token.kt" afterDir="false" />
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex8 completed">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Ex9PasswordBrutoforce.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,17 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Ex8Token.test">
-    <configuration name="Ex5JSONParsing.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex5JSONParsing" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Ex9PasswordBrutoforce.test">
     <configuration name="Ex6GetRedirectURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,6 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex9PasswordBrutoforce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex9PasswordBrutoforce" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LerarnQA_KotlinAPI" />
       <method v="2">
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex9PasswordBrutoforce.test" />
         <item itemvalue="JUnit.Ex8Token.test" />
         <item itemvalue="JUnit.Ex8Token" />
         <item itemvalue="JUnit.Ex7LongRedirect" />
         <item itemvalue="JUnit.Ex6GetRedirectURL" />
-        <item itemvalue="JUnit.Ex5JSONParsing.test" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684934795388</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ex8 completed">
+      <created>1684935982272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684935982272</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +198,7 @@
     <MESSAGE value="Ex5 completed" />
     <MESSAGE value="Ex6 completed" />
     <MESSAGE value="Ex7 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex7 completed" />
+    <MESSAGE value="Ex8 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex8 completed" />
   </component>
 </project>
