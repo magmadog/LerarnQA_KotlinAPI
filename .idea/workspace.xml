@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Completed Ex4">
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Completed 2nd lessons tests">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Ex5JSONParsing.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/HelloWorldTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/HelloWorldTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +51,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HelloWorldTest.testCookies">
-    <configuration name="Ex4Test.testGetText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Ex5JSONParsing.test">
+    <configuration name="Ex5JSONParsing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex4Test" />
-      <option name="METHOD_NAME" value="testGetText" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Ex5JSONParsing" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex5JSONParsing.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Ex5JSONParsing" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex5JSONParsing.test" />
+        <item itemvalue="JUnit.Ex5JSONParsing" />
         <item itemvalue="JUnit.HelloWorldTest.testCookies" />
         <item itemvalue="JUnit.HelloWorldTest.testHeaders" />
         <item itemvalue="JUnit.HelloWorldTest.testCheckType" />
-        <item itemvalue="JUnit.HelloWorldTest" />
-        <item itemvalue="JUnit.Ex4Test.testGetText" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684509095808</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed 2nd lessons tests">
+      <created>1684930764719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684930764719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit" />
     <MESSAGE value="Ex3" />
     <MESSAGE value="Completed Ex4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Ex4" />
+    <MESSAGE value="Completed 2nd lessons tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed 2nd lessons tests" />
   </component>
 </project>
