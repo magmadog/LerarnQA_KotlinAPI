@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex11 completed">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex12HeaderRequest.kt" afterDir="false" />
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex12 completed">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex13UserAgent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,38 +58,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ex12HeaderRequest">
-    <configuration name="Ex10ShortPhrase.testPhraseGreaterThan15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercise" />
-      <option name="MAIN_CLASS_NAME" value="exercise.Ex10ShortPhrase" />
-      <option name="METHOD_NAME" value="testPhraseGreaterThan15" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex11CookieRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercise" />
-      <option name="MAIN_CLASS_NAME" value="exercise.Ex11CookieRequest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Ex13UserAgent.testCheckUserAgents (1)">
     <configuration name="Ex11CookieRequest.testRecognizeCookie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
@@ -136,6 +106,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex13UserAgent.testCheckUserAgents (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.Ex13UserAgent" />
+      <option name="METHOD_NAME" value="testCheckUserAgents(exercise.TestUserAgent)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex13UserAgent.testCheckUserAgents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.Ex13UserAgent" />
+      <option name="METHOD_NAME" value="testCheckUserAgents" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LerarnQA_KotlinAPI" />
       <method v="2">
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex13UserAgent.testCheckUserAgents (1)" />
+        <item itemvalue="JUnit.Ex13UserAgent.testCheckUserAgents" />
         <item itemvalue="JUnit.Ex12HeaderRequest" />
         <item itemvalue="JUnit.Ex12HeaderRequest.testRecognizeHeader" />
         <item itemvalue="JUnit.Ex11CookieRequest.testRecognizeCookie" />
-        <item itemvalue="JUnit.Ex11CookieRequest" />
-        <item itemvalue="JUnit.Ex10ShortPhrase.testPhraseGreaterThan15" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685539533362</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ex12 completed">
+      <created>1685539948074</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685539948074</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -268,6 +277,7 @@
     <MESSAGE value="Lesson 3 code completed" />
     <MESSAGE value="Ex10 completed" />
     <MESSAGE value="Ex11 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex11 completed" />
+    <MESSAGE value="Ex12 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex12 completed" />
   </component>
 </project>
