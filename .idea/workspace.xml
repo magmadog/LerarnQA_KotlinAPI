@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex8 completed">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/Ex9PasswordBrutoforce.kt" afterDir="false" />
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex9 completed">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lib/Assertions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lib/BaseTestCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserAuthTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Ex4Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex4Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Ex5JSONParsing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex5JSONParsing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Ex6GetRedirectURL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex6GetRedirectURL.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Ex7LongRedirect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex7LongRedirect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Ex8Token.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex8Token.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/Ex9PasswordBrutoforce.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex9PasswordBrutoforce.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/HelloWorldTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/HelloWorldTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,56 +53,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/AutoTests/LerarnQA_KotlinAPI"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.Ex9PasswordBrutoforce.test">
-    <configuration name="Ex6GetRedirectURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="exercise" />
+      <recent name="tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserAuthTest (1)">
+    <configuration name="UserAuthTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex6GetRedirectURL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserAuthTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex7LongRedirect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex7LongRedirect" />
+      <option name="MAIN_CLASS_NAME" value="UserAuthTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex8Token" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserAuthTest.testAuthUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex8Token" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex8Token.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex8Token" />
-      <option name="METHOD_NAME" value="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserAuthTest" />
+      <option name="METHOD_NAME" value="testAuthUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex9PasswordBrutoforce.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserAuthTest.testAuthuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ex9PasswordBrutoforce" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="UserAuthTest" />
+      <option name="METHOD_NAME" value="testAuthuser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAuthTest.testNegativeAuthUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserAuthTest" />
+      <option name="METHOD_NAME" value="testNegativeAuthUser(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ex9PasswordBrutoforce.test" />
-        <item itemvalue="JUnit.Ex8Token.test" />
-        <item itemvalue="JUnit.Ex8Token" />
-        <item itemvalue="JUnit.Ex7LongRedirect" />
-        <item itemvalue="JUnit.Ex6GetRedirectURL" />
+        <item itemvalue="JUnit.UserAuthTest (1)" />
+        <item itemvalue="JUnit.UserAuthTest.testAuthUser" />
+        <item itemvalue="JUnit.UserAuthTest" />
+        <item itemvalue="JUnit.UserAuthTest.testNegativeAuthUser" />
+        <item itemvalue="JUnit.UserAuthTest.testAuthuser" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684935982272</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ex9 completed">
+      <created>1684937972346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684937972346</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +235,7 @@
     <MESSAGE value="Ex6 completed" />
     <MESSAGE value="Ex7 completed" />
     <MESSAGE value="Ex8 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex8 completed" />
+    <MESSAGE value="Ex9 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex9 completed" />
   </component>
 </project>

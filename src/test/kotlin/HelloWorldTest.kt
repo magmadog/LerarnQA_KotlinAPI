@@ -1,5 +1,8 @@
 import io.restassured.RestAssured
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.ValueSource
+import kotlin.test.assertEquals
 
 class HelloWorldTest() {
 
@@ -84,5 +87,47 @@ class HelloWorldTest() {
             .andReturn()
 
         responseForAuth.print()
+    }
+
+    @Test
+    fun testJunitAssertForCode200(){
+        val response = RestAssured
+            .get("https://playground.learnqa.ru/api/map")
+            .andReturn()
+
+        assertEquals(
+            200,
+            response.statusCode,
+            "Unexpected Status Code")
+    }
+
+    @Test
+    fun testJunitAssertForCode404(){
+        val response = RestAssured
+            .get("https://playground.learnqa.ru/api/mapvsvsd")
+            .andReturn()
+
+        assertEquals(
+            404,
+            response.statusCode,
+            "Unexpected Status Code")
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = ["", "John", "Pete"])
+    fun testWithParams(name: String){
+        val response = RestAssured
+            .given()
+            .param("name", name)
+            .get("https://playground.learnqa.ru/api/hello")
+            .jsonPath()
+        val answer = response.get<String>("answer")
+
+        val expectedName = if(name != "") name else "someone"
+        assertEquals(
+            "Hello, $expectedName",
+            answer,
+            "Unexpected answer"
+        )
     }
 }
