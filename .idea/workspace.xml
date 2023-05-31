@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex10 completed">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex11CookieRequest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex11 completed">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex12HeaderRequest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ex11CookieRequest.testRecognizeCookie">
+  <component name="RunManager" selected="JUnit.Ex12HeaderRequest">
     <configuration name="Ex10ShortPhrase.testPhraseGreaterThan15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
@@ -106,32 +105,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserAuthTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex12HeaderRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserAuthTest" />
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.Ex12HeaderRequest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserAuthTest.testAuthUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex12HeaderRequest.testRecognizeHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserAuthTest" />
-      <option name="METHOD_NAME" value="testAuthUser" />
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.Ex12HeaderRequest" />
+      <option name="METHOD_NAME" value="testRecognizeHeader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex12HeaderRequest" />
+        <item itemvalue="JUnit.Ex12HeaderRequest.testRecognizeHeader" />
         <item itemvalue="JUnit.Ex11CookieRequest.testRecognizeCookie" />
         <item itemvalue="JUnit.Ex11CookieRequest" />
         <item itemvalue="JUnit.Ex10ShortPhrase.testPhraseGreaterThan15" />
-        <item itemvalue="JUnit.UserAuthTest (1)" />
-        <item itemvalue="JUnit.UserAuthTest.testAuthUser" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685538922081</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ex11 completed">
+      <created>1685539533362</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685539533362</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,6 +267,7 @@
     <MESSAGE value="Ex9 completed" />
     <MESSAGE value="Lesson 3 code completed" />
     <MESSAGE value="Ex10 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex10 completed" />
+    <MESSAGE value="Ex11 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex11 completed" />
   </component>
 </project>
