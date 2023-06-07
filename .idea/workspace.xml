@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex12 completed">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercise/Ex13UserAgent.kt" afterDir="false" />
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex13 completed">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lib/ApiCoreRequests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/lib/DataGenerator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserEditTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserGetTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserRegisterTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/lib/Assertions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/lib/Assertions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/UserAuthTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserAuthTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson2" />
+        <entry key="$PROJECT_DIR$" value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,96 +52,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/AutoTests/LerarnQA_KotlinAPI"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/AutoTests/LerarnQA_KotlinAPI&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="exercise" />
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ex13UserAgent.testCheckUserAgents (1)">
-    <configuration name="Ex11CookieRequest.testRecognizeCookie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="UserAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercise" />
-      <option name="MAIN_CLASS_NAME" value="exercise.Ex11CookieRequest" />
-      <option name="METHOD_NAME" value="testRecognizeCookie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex12HeaderRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercise" />
-      <option name="MAIN_CLASS_NAME" value="exercise.Ex12HeaderRequest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserAuthTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12HeaderRequest.testRecognizeHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserEditTest.testEditJustCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercise" />
-      <option name="MAIN_CLASS_NAME" value="exercise.Ex12HeaderRequest" />
-      <option name="METHOD_NAME" value="testRecognizeHeader" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
+      <option name="METHOD_NAME" value="testEditJustCreatedTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex13UserAgent.testCheckUserAgents (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserGetTest.testGetUserDataAuthAsSameUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercise" />
-      <option name="MAIN_CLASS_NAME" value="exercise.Ex13UserAgent" />
-      <option name="METHOD_NAME" value="testCheckUserAgents(exercise.TestUserAgent)" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserGetTest" />
+      <option name="METHOD_NAME" value="testGetUserDataAuthAsSameUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex13UserAgent.testCheckUserAgents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercise" />
-      <option name="MAIN_CLASS_NAME" value="exercise.Ex13UserAgent" />
-      <option name="METHOD_NAME" value="testCheckUserAgents" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserRegisterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,13 +142,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ex13UserAgent.testCheckUserAgents (1)" />
-        <item itemvalue="JUnit.Ex13UserAgent.testCheckUserAgents" />
-        <item itemvalue="JUnit.Ex12HeaderRequest" />
-        <item itemvalue="JUnit.Ex12HeaderRequest.testRecognizeHeader" />
-        <item itemvalue="JUnit.Ex11CookieRequest.testRecognizeCookie" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="JUnit.UserAuthTest" />
+        <item itemvalue="JUnit.UserEditTest.testEditJustCreatedTest" />
+        <item itemvalue="JUnit.UserRegisterTest" />
+        <item itemvalue="JUnit.UserGetTest.testGetUserDataAuthAsSameUser" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685539948074</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ex13 completed">
+      <created>1685543220543</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685543220543</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +288,7 @@
     <MESSAGE value="Ex10 completed" />
     <MESSAGE value="Ex11 completed" />
     <MESSAGE value="Ex12 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex12 completed" />
+    <MESSAGE value="Ex13 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex13 completed" />
   </component>
 </project>
