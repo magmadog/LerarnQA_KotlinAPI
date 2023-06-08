@@ -55,4 +55,14 @@ class ApiCoreRequests {
             .put(url+id)
             .andReturn()
     }
+
+    @Step("Make a DELETE request for delete user with id: {id}")
+    fun makeDeleteRequest(url: String, token: String, cookie: String, id: Int): Response{
+        return given()
+            .filter(AllureRestAssured())
+            .header("x-csrf-token", token)
+            .cookie("auth_sid", cookie)
+            .delete(url+id)
+            .andReturn()
+    }
 }

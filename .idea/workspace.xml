@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex16 completed">
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex17 completed">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserDeleteTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/lib/ApiCoreRequests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/lib/ApiCoreRequests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/UserEditTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserEditTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +59,8 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserEditTest">
-    <configuration name="UserEditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserDeleteTest">
+    <configuration name="UserDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +69,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserDeleteTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDeleteTest.testDeleteUserFromAnotherUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserDeleteTest" />
+      <option name="METHOD_NAME" value="testDeleteUserFromAnotherUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDeleteTest.testPositiveDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserDeleteTest" />
+      <option name="METHOD_NAME" value="testPositiveDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDeleteTest.testTryToDeleteUserWithId2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserDeleteTest" />
+      <option name="METHOD_NAME" value="testTryToDeleteUserWithId2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,54 +134,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
       <option name="METHOD_NAME" value="testEditJustCreatedTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserEditTest.testEditUserByIncorrectEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
-      <option name="METHOD_NAME" value="testEditUserByIncorrectEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserEditTest.testEditUserByLoginAsAnotherUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
-      <option name="METHOD_NAME" value="testEditUserByLoginAsAnotherUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserEditTest.testEditUserByTooShortFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
-      <option name="METHOD_NAME" value="testEditUserByTooShortFirstName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserEditTest" />
-        <item itemvalue="JUnit.UserEditTest.testEditUserByLoginAsAnotherUser" />
-        <item itemvalue="JUnit.UserEditTest.testEditUserByIncorrectEmail" />
-        <item itemvalue="JUnit.UserEditTest.testEditUserByTooShortFirstName" />
+        <item itemvalue="JUnit.UserDeleteTest" />
+        <item itemvalue="JUnit.UserDeleteTest.testDeleteUserFromAnotherUser" />
         <item itemvalue="JUnit.UserEditTest.testEditJustCreatedTest" />
+        <item itemvalue="JUnit.UserDeleteTest.testTryToDeleteUserWithId2" />
+        <item itemvalue="JUnit.UserDeleteTest.testPositiveDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686207070331</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ex17 completed">
+      <created>1686212580308</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686212580308</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -317,6 +324,7 @@
     <MESSAGE value="Lesson 4 completed" />
     <MESSAGE value="Ex15 completed" />
     <MESSAGE value="Ex16 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex16 completed" />
+    <MESSAGE value="Ex17 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex17 completed" />
   </component>
 </project>
