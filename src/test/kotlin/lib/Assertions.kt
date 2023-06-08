@@ -59,6 +59,12 @@ object Assertions {
         }
     }
 
+    fun assertResponseHasNotFields(response: Response, keys: List<String>){
+        for (key in keys){
+            assertResponseHasNotKey(response, key)
+        }
+    }
+
     fun assertHtmlByName(response: Response, name: String, expectedValue: String){
         assertEquals(
             expectedValue,

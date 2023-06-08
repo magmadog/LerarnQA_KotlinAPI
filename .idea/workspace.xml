@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Lesson 4 completed">
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex15 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/lib/Assertions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/lib/Assertions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/UserRegisterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserRegisterTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/UserGetTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserGetTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,38 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegisterTest">
+  <component name="RunManager" selected="JUnit.UserGetTest">
+    <configuration name="UserGetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserGetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGetTest.testGetUserDataAuthAsAnotherUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserGetTest" />
+      <option name="METHOD_NAME" value="testGetUserDataAuthAsAnotherUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
@@ -71,22 +101,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.UserRegisterTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegisterTest.testCreateUserWithIncorrectEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegisterTest" />
-      <option name="METHOD_NAME" value="testCreateUserWithIncorrectEmail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,22 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegisterTest.testCreateUserWithoutOneParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegisterTest" />
-      <option name="METHOD_NAME" value="testCreateUserWithoutOneParam(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LerarnQA_KotlinAPI" />
       <method v="2">
@@ -160,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserGetTest" />
+        <item itemvalue="JUnit.UserGetTest.testGetUserDataAuthAsAnotherUser" />
         <item itemvalue="JUnit.UserRegisterTest" />
         <item itemvalue="JUnit.UserRegisterTest.testCreateUserWithTooLongName" />
         <item itemvalue="JUnit.UserRegisterTest.testCreateUserWithTooShortName" />
-        <item itemvalue="JUnit.UserRegisterTest.testCreateUserWithIncorrectEmail" />
-        <item itemvalue="JUnit.UserRegisterTest.testCreateUserWithoutOneParam" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686149348510</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ex15 completed">
+      <created>1686206312387</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686206312387</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -301,6 +306,7 @@
     <MESSAGE value="Ex12 completed" />
     <MESSAGE value="Ex13 completed" />
     <MESSAGE value="Lesson 4 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4 completed" />
+    <MESSAGE value="Ex15 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex15 completed" />
   </component>
 </project>
