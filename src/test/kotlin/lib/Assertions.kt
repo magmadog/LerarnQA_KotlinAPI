@@ -58,4 +58,12 @@ object Assertions {
             assertResponseHasKey(response, key)
         }
     }
+
+    fun assertHtmlByName(response: Response, name: String, expectedValue: String){
+        assertEquals(
+            expectedValue,
+            response.htmlPath().getString(name),
+            "HTML value is not equals to expected value"
+        )
+    }
 }
