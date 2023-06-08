@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex15 completed">
+    <list default="true" id="6bec973f-6293-4684-a54a-e349fac70d1c" name="Changes" comment="Ex16 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/UserGetTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserGetTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/lib/ApiCoreRequests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/lib/ApiCoreRequests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/tests/UserEditTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/tests/UserEditTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +59,8 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserGetTest">
-    <configuration name="UserGetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserEditTest">
+    <configuration name="UserEditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
@@ -68,13 +69,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserGetTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetTest.testGetUserDataAuthAsAnotherUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserEditTest.testEditJustCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
@@ -83,14 +84,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserGetTest" />
-      <option name="METHOD_NAME" value="testGetUserDataAuthAsAnotherUser" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
+      <option name="METHOD_NAME" value="testEditJustCreatedTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserEditTest.testEditUserByIncorrectEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
@@ -99,29 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegisterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegisterTest.testCreateUserWithTooLongName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-test-example-restassured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegisterTest" />
-      <option name="METHOD_NAME" value="testCreateUserWithTooLongName" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
+      <option name="METHOD_NAME" value="testEditUserByIncorrectEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegisterTest.testCreateUserWithTooShortName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserEditTest.testEditUserByLoginAsAnotherUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-test-example-restassured" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +116,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserRegisterTest" />
-      <option name="METHOD_NAME" value="testCreateUserWithTooShortName" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
+      <option name="METHOD_NAME" value="testEditUserByLoginAsAnotherUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserEditTest.testEditUserByTooShortFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-test-example-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UserEditTest" />
+      <option name="METHOD_NAME" value="testEditUserByTooShortFirstName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserGetTest" />
-        <item itemvalue="JUnit.UserGetTest.testGetUserDataAuthAsAnotherUser" />
-        <item itemvalue="JUnit.UserRegisterTest" />
-        <item itemvalue="JUnit.UserRegisterTest.testCreateUserWithTooLongName" />
-        <item itemvalue="JUnit.UserRegisterTest.testCreateUserWithTooShortName" />
+        <item itemvalue="JUnit.UserEditTest" />
+        <item itemvalue="JUnit.UserEditTest.testEditUserByLoginAsAnotherUser" />
+        <item itemvalue="JUnit.UserEditTest.testEditUserByIncorrectEmail" />
+        <item itemvalue="JUnit.UserEditTest.testEditUserByTooShortFirstName" />
+        <item itemvalue="JUnit.UserEditTest.testEditJustCreatedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686206312387</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Ex16 completed">
+      <created>1686207070331</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686207070331</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -307,6 +316,7 @@
     <MESSAGE value="Ex13 completed" />
     <MESSAGE value="Lesson 4 completed" />
     <MESSAGE value="Ex15 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex15 completed" />
+    <MESSAGE value="Ex16 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex16 completed" />
   </component>
 </project>

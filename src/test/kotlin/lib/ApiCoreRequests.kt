@@ -44,4 +44,15 @@ class ApiCoreRequests {
             .post(url)
             .andReturn()
     }
+
+    @Step("Make a PUT request for Edit user with id: {id}")
+    fun makePutRequest(url: String, token: String, cookie: String, newData: Map<String, String>, id: Int): Response{
+        return given()
+            .filter(AllureRestAssured())
+            .header("x-csrf-token", token)
+            .cookie("auth_sid", cookie)
+            .body(newData)
+            .put(url+id)
+            .andReturn()
+    }
 }
