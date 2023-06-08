@@ -1,17 +1,21 @@
 package tests
 
+import io.qameta.allure.*
 import io.restassured.RestAssured
 import lib.ApiCoreRequests
 import lib.Assertions
 import lib.BaseTestCase
 import lib.DataGenerator
 import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import kotlin.test.assertNotEquals
 
+@Epic("User edit tests")
+@Feature("Edit users")
 class UserEditTest: BaseTestCase() {
 
-    val testUserEmail = "learqa20230608105415@example.com"
+    val testUserEmail = "learqa20230608125435@example.com"
     val testUserPassword = "1234"
     var cookie: String = ""
     var header: String = ""
@@ -19,6 +23,7 @@ class UserEditTest: BaseTestCase() {
     private val apiCoreRequests = ApiCoreRequests()
 
     @BeforeEach
+    @Step("Login and get legal auth data")
     fun loginTestUser(){
         val authData = HashMap<String, String>()
         authData["email"] = testUserEmail
@@ -35,6 +40,9 @@ class UserEditTest: BaseTestCase() {
     }
 
     @Test
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Positive")
+    @DisplayName("Positive test of editing")
     fun testEditJustCreatedTest(){
         val userData = DataGenerator.getRegistrationData()
 
@@ -82,6 +90,9 @@ class UserEditTest: BaseTestCase() {
     //Ex 17 Negative edit tests
 
     @Test
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Negative")
+    @DisplayName("Negative test when user not authenticated")
     fun testEditUserWithoutAuth(){
         val newName = "Changed Name"
         val newData = HashMap<String, String>()
@@ -101,6 +112,9 @@ class UserEditTest: BaseTestCase() {
     }
 
     @Test
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Negative")
+    @DisplayName("Negative test trying edit another user")
     fun testEditUserByLoginAsAnotherUser(){
         val newName = "changed"
         val newData = HashMap<String, String>()
@@ -134,6 +148,9 @@ class UserEditTest: BaseTestCase() {
     }
 
     @Test
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Negative")
+    @DisplayName("Negative test trying edit user edit incorrect email")
     fun testEditUserByIncorrectEmail(){
         val newData = HashMap<String, String>()
         val newEmail = testUserEmail.replace("@", ".")
@@ -153,6 +170,9 @@ class UserEditTest: BaseTestCase() {
     }
 
     @Test
+    @Severity(SeverityLevel.TRIVIAL)
+    @Story("Negative")
+    @DisplayName("Negative test trying edit first name of user by too short name")
     fun testEditUserByTooShortFirstName(){
         val newData = HashMap<String, String>()
         val newFirstName = "A"
